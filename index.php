@@ -9,11 +9,11 @@
     <script src="lib/js/jquery/jquery.js" type="text/javascript"></script>
     <script src="lib/js/jquery/jquery.mobile.min.js" type="text/javascript"></script>
     
-        <!-- Angular -->
-        <script type="text/javascript" src="lib/js/angular/newangular.min.js"></script>
-        <script type="text/javascript" src="lib/js/angular/underscore-min.js"></script>
-        <script type="text/javascript" src="lib/js/angular/angular-route.js"></script>
-        <script type="text/javascript" src="lib/js/angular/restangular.min.js"></script>    
+    <!-- Angular -->
+    <script type="text/javascript" src="lib/js/angular/newangular.min.js"></script>
+    <script type="text/javascript" src="lib/js/angular/underscore-min.js"></script>
+    <script type="text/javascript" src="lib/js/angular/angular-route.js"></script>
+    <script type="text/javascript" src="lib/js/angular/restangular.min.js"></script>    
     
     <link href="lib/css/materialize/css/materialize.min.css" rel="stylesheet" type="text/css" media="screen,projection"/>
     <script src="lib/css/materialize/js/materialize.min.js" type="text/javascript"></script>    
@@ -78,11 +78,11 @@
                                 </ul>
                             </div>
                         </li>
-                           <li class="bold">
+                        <li class="bold">
                             <a class="collapsible-header">Orçamento</a>
                             <div class="collapsible-body">
                                 <ul>
-                                    <li><a>Cadastrar Oçamento</a></li>
+                                    <li><a data-ng-click="main.selecionar('orcamentos','')">Cadastrar Oçamento</a></li>
                                     <li><a>...</a></li>
                                     <li><a>...</a></li>
                                 </ul>
@@ -107,8 +107,8 @@
         <!-- Angular Controllers -->
         <script src="mainController.js" type="text/javascript"></script>
         <script src="modules/clientes/controllers/clienteController.js" type="text/javascript"></script>
-        <script src="modules/login/controllers/loginController.js" type="text/javascript"></script>
-        <script src="modules/login/controllers/orcamentoController.js" type="text/javascript"></script>
+        <script src="modules/orcamentos/controllers/orcamentoController.js" type="text/javascript"></script>
+        <script src="modules/login/controller/loginController.js" type="text/javascript"></script>        
         
 <script src="lib/js/jquery/geral.js" type="text/javascript"></script>
 </body>
