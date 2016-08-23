@@ -1,7 +1,7 @@
 (function (){
     //var mainModule = angular.module('mainModule', ['mainDirectives', 'servidorModule','instituicaoModule','cursoModule', 
     //'regimeModule','nivelModule','turnoModule','unidadeModule', 'tipoModule','turmaModule','matriculaModule', 'transferenciaModule', 'dateTimeComponent']);
-    var mainModule = angular.module('mainModule', ['clienteModule', 'orcamentoModule', 'loginModule']);
+    var mainModule = angular.module('mainModule', ['clienteModule','orcamentoModule','loginModule']);
     mainModule.controller('MainController', function($templateCache){
         
         $templateCache.removeAll();
@@ -27,7 +27,7 @@
         };
         
         this.carregarConteudo = function (modulo, options) {
-            return "modules/" + modulo + "/partials/" + modulo + options + ".html";
+            return "modules/" + modulo + "/partials/" + modulo + options + ".php";
         };      
     });
 })();

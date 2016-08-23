@@ -3,11 +3,11 @@
 <div>    
     <div class="col s12 form">
         <div class="card-panel">
-            <form>
+            <form action="banco_clientes.php" method="post">
                 <div class="row">              
                     <div class="input-field col s12 m6 l6" >
                         <i class="material-icons prefix">account_circle</i>
-                        <input type="text" id="nome" value="" required/>
+                        <input type="text" id="nome" value=" required/>
                        <label for="nome">NOME*</label>
                     </div>
                     <div class="input-field col s12 m6 l6" >
