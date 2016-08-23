@@ -78,6 +78,16 @@
                                 </ul>
                             </div>
                         </li>
+                           <li class="bold">
+                            <a class="collapsible-header">Orçamento</a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a>Cadastrar Oçamento</a></li>
+                                    <li><a>...</a></li>
+                                    <li><a>...</a></li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -98,7 +108,7 @@
         <script src="mainController.js" type="text/javascript"></script>
         <script src="modules/clientes/controllers/clienteController.js" type="text/javascript"></script>
         <script src="modules/login/controllers/loginController.js" type="text/javascript"></script>
-        
+        <script src="modules/login/controllers/orcamentoController.js" type="text/javascript"></script>
         
 <script src="lib/js/jquery/geral.js" type="text/javascript"></script>
 </body>
