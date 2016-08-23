@@ -27,7 +27,7 @@
         };
         
         this.carregarConteudo = function (modulo, options) {
-            return "modules/" + modulo + "/partials/" + modulo + options + ".php";
+            return "modules/" + modulo + "/partials/" + modulo + options + ".html";
         };      
     });
 })();
