@@ -58,10 +58,10 @@
                             </div>
                         </li>
                         <li class="bold">
-                            <a class="collapsible-header">Funcionários</a>
+                            <a class="collapsible-header">Funcionï¿½rios</a>
                             <div class="collapsible-body">
                                 <ul>
-                                    <li><a>Cadastrar Funcionário</a></li>
+                                    <li><a>Cadastrar Funcionï¿½rio</a></li>
                                     <li><a>...</a></li>
                                     <li><a>...</a></li>
                                 </ul>
@@ -88,6 +88,16 @@
                                 </ul>
                             </div>
                         </li>
+                        <li class="bold">
+                            <a class="collapsible-header">OrÃ§amento</a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a>Cadastrar OÃ§amento</a></li>
+                                    <li><a>...</a></li>
+                                    <li><a>...</a></li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -108,8 +118,8 @@
         <script src="mainController.js" type="text/javascript"></script>
         <script src="modules/clientes/controllers/clienteController.js" type="text/javascript"></script>
         <script src="modules/login/controllers/loginController.js" type="text/javascript"></script>
-        <script src="modules/login/controllers/funcionarioController.js" type="text/javascript"></script>
-
+        <script src="modules/login/controllers/funcionarioController.js" type="text/javascript"></script>        
+        <script src="modules/login/controllers/orcamentoController.js" type="text/javascript"></script>
 
         <script src="lib/js/jquery/geral.js" type="text/javascript"></script>
     </body>
