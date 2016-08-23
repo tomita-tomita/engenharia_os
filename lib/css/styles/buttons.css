@@ -1,0 +1,39 @@
+/* Buttons */
+
+.fab-add {
+    bottom: 30px;
+    right: 40px;
+    z-index: 101;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transform: none;
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+}
+
+.backBtn {
+    position: absolute;
+    top: 10px;
+    left: 315px;
+    z-index: 100;
+    color: white;
+}
+
+.salvarBtn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #4285f4;
+    color: #fafafa;
+}
+
+.searchBtn {
+    top: 139px;
+    left: 275px;
+    color: white;
+    z-index: 100;
+}
+
+.btnCustom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

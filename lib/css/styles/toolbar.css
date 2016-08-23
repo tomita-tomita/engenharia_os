@@ -1,0 +1,40 @@
+/* Toolbar */
+
+paper-scroll-header-panel::shadow #headerContainer .bg-container #headerBg{
+    background: #3f51b5;
+}
+
+paper-scroll-header-panel::shadow #headerContainer .bg-container #condensedHeaderBg{
+    background: #3f51b5;
+}
+
+paper-header-panel #toolbar-sidebar {
+    background: url('../../../../main/assets/images/sidebar-bg.jpg') no-repeat center center;
+    background-size: auto 100%;
+    position: relative;
+}
+
+.blue-veil {
+    position: absolute;
+    width: 100%;
+    height: 300%;
+    background: #3f51b5;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+
+.toolbar-mobile {
+    display: none;
+}
+
+.floated-toolbar {
+    width: 100%;
+    top: 0;
+    display: none;
+    z-index: 100;
+}
+
+.main-toolbar .bottom, .floated-toolbar .title {
+    margin-left: 96px !important;
+}

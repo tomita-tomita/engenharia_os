@@ -1,0 +1,22 @@
+.animatable {
+    transition-property: all;
+    transition-duration: 0.8s;
+}
+
+.slide-to-right {
+    position: absolute;
+    margin-left: 3000px;
+}
+
+.slide-to-left {
+    position: absolute;
+    margin-left: -3000px;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+}

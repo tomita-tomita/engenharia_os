@@ -1,0 +1,21 @@
+/* Shadows */
+
+.z1 { 
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); 
+}
+
+.z2 { 
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+}
+
+.z3 { 
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+}
+
+.z4 { 
+    box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22);
+}
+
+.z5 {
+    box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2);
+}

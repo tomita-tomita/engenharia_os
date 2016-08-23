@@ -1,0 +1,26 @@
+/* Card */
+
+.card {
+    background: #fafafa;
+    margin: 46px;
+}
+
+.search-card {
+    background: #fafafa;
+    width: 100%;
+    z-index: 100;
+}
+
+.margin-card {
+    /*margin: 5px !important;*/
+}
+
+.card-list {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.item-card-list {
+    transition-property: all;
+    transition-duration: 0.3s;
+}
