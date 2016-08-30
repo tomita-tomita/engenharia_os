@@ -1,7 +1,7 @@
 (function (){
-    var orcamentoModule = angular.module('produtosModule',[]);
+    var orcamentoModule = angular.module('produtoModule',[]);
     
-    orcamentoModule.controller('ProdutosController', ['$scope', function($scope) {
+    orcamentoModule.controller('ProdutoController', ['$scope', function($scope) {
         /* Inicializando */
     }]);
     

@@ -13,23 +13,8 @@
                     <div class="input-field col s12 m6 l6" >
                         <i class="material-icons prefix">description</i>
                         <input type="text" id="cpf" value=""  />
-                       <label for="cpf">CPF*</label>
-                    </div>
-                    <div class="input-field col s12 m6 l6" >
-                        <i class="material-icons prefix">place</i>
-                        <input type="text" id="endereco" value=""  />
-                       <label for="endereco">ENDEREÇO</label>
-                    </div>
-                    <div class="input-field col s12 m2 l2" >
-                        <i class="material-icons prefix">filter_1</i>
-                        <input type="text" id="numero" value=""  />
-                       <label for="numero">NÚMERO</label>
-                    </div>
-                    <div class="input-field col s12 m4 l4" >
-                        <i class="material-icons prefix">local_offer</i>
-                        <input type="text" id="comple" value=""  />
-                       <label for="comple">COMPLEMENTO</label>
-                    </div>
+                       <label for="cpf">PREÇO</label>
+                    </div>          
                     <div class="input-field col s12 m6 l6" >
                         <i class="material-icons prefix"></i>
                         <input id="email" type="email" class="validate" value=""  />
