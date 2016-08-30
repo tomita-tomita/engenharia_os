@@ -72,7 +72,7 @@
                             <a class="collapsible-header">Estoque</a>
                             <div class="collapsible-body">
                                 <ul>
-                                    <li><a>Cadastrar Produto</a></li>
+                                    <li><a data-ng-click="main.selecionar('produtos','')">Cadastrar Produto</a></li>
                                     <li><a>...</a></li>
                                     <li><a>...</a></li>
                                 </ul>
