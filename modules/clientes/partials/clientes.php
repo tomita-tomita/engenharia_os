@@ -46,7 +46,7 @@
                     <div class="col s12 right-align">
  			<input type="hidden" name="id" value="" />
 			<input type="hidden" name="acao" value="" />                   
-                        <button class="btn-large waves-effect waves-light" type="submit" name="action"><i class="material-icons left">send</i>SALVAR</button>
+                        <button class="btn waves-effect waves-light" type="submit" name="action"><i class="material-icons left">send</i>SALVAR</button>
                     </div>
                 </div>
             </form>

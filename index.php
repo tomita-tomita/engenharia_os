@@ -107,8 +107,10 @@
         <!-- Angular Controllers -->
         <script src="mainController.js" type="text/javascript"></script>
         <script src="modules/clientes/controllers/clienteController.js" type="text/javascript"></script>
+        <script src="modules/funcionarios/controllers/funcionarioController.js" type="text/javascript"></script>
         <script src="modules/orcamentos/controllers/orcamentoController.js" type="text/javascript"></script>
-        <script src="modules/login/controller/loginController.js" type="text/javascript"></script>        
+        <script src="modules/login/controllers/loginController.js" type="text/javascript"></script>        
+        <script src="modules/produtos/controllers/produtoController.js" type="text/javascript"></script>        
         
 <script src="lib/js/jquery/geral.js" type="text/javascript"></script>
 </body>
