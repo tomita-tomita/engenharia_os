@@ -18,27 +18,15 @@
                         <label for="sobrenome">Sobrenome*</label>
                     </div>
                 </div>
-                <!--Aqui deve ser incluido um dropdown para selecionar se o cliente é físico ou jurídico-->
                 <div class="row">
                     <div class="input-field col s12 m6 l6" >
                         <!--<i class="material-icons prefix">description</i>-->
                         <input type="text" id="cpf" value="" class="form-control cpf" />
                         <label for="cpf">CPF*</label>
-                    </div>
-                    <div class="input-field col s12 m6 l6" >
-                        <!--<i class="material-icons prefix">description</i>-->
-                        <input type="text" id="rg" value="" class="rg"  />
-                        <label for="rg">RG*</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12 m6 l6" >
-                        <!--<i class="material-icons prefix"></i>-->
-                        <input type="text" class="data" id="nasci" value=""  />
-                        <label for="nasci">Data de Nascimento</label>
-                    </div> 
-                </div> 
-            </div>
+                    </div>                    
+                </div>                
+            </div> 
+
             <div class="card-panel">
                 <span class="card-title"><h5>
                         <i class="material-icons prefix">place</i>
@@ -135,14 +123,13 @@
                 <div class="row">
                     <!--Incluir dropdown para selecionar o cargo-->
                 </div>
-            </div>    
-    </div>                      
-    <div class="row fim-form">
-        <div class="col s12 right-align">
-            <input type="hidden" name="id" value="" />
-            <input type="hidden" name="acao" value="" />                   
-            <button class="btn waves-effect waves-light" type="submit" name="action"><i class="material-icons left">send</i>SALVAR</button>
-        </div>                
+            </div>                      
+            <div class="row fim-form">
+                <div class="col s12 right-align">
+                    <input type="hidden" name="id" value="" />
+                    <input type="hidden" name="acao" value="" />                   
+                    <button class="btn waves-effect waves-light" type="submit" name="action"><i class="material-icons left">send</i>SALVAR</button>
+                </div>                
         </form>        
     </div>
 </div>

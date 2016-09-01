@@ -1,7 +1,7 @@
 (function (){
-    var clienteModule = angular.module('funcionarioModule',[]);
+    var funcionarioModule = angular.module('funcionarioModule',[]);
     
-    clienteModule.controller('FuncionarioController', ['$scope', function($scope) {
+    funcionarioModule.controller('FuncionarioController', ['$scope', function($scope) {
         /* Inicializando */
     }]);
     
