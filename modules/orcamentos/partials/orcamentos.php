@@ -6,7 +6,7 @@
                 <i class="material-icons prefix">assignment</i>
                 Orçamento</h5></span>
         
-        <div id="listaOçamento">
+        <div id="listas">
             <div class="row">
                 <div class="input-field col s12 m6 16">
                     <input type="text" id="produtos[0]" value=""/>
@@ -19,11 +19,10 @@
                 <button href="#" class="btn remover_campo" style="margin-top: 1rem;"><i class="material-icons prefix">clear</i></button>
             </div>
         </div>
-        <button class="btn material-icons prefix add_field" type="button" id="add_field">add</button>
-        
-
-
-        <div class="row fim-form">
+        <button class="btn material-icons prefix add_a" type="button" id="add_a">add</button>
+               
+    </div>
+     <div class="row fim-form">
             <div class="col s12 right-align">
                 <input type="hidden" name="id" value="" />
                 <input type="hidden" name="acao" value="" />                   
@@ -31,6 +30,6 @@
             </div>                
 
         </div>
-    </div>
+    
 </div>
 

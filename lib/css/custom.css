@@ -58,7 +58,7 @@ body {
 }
 
 *:focus {
-    outline: 0 !important;    
+    outline: 0 !important;
 }
 
 header, main, footer {
@@ -258,11 +258,11 @@ ul.side-nav.fixed li a {
 }
 
 .side-nav li:hover, .side-nav li.active {
-    background: transparent !important;    
+    background: transparent !important;
 }
 
 .side-nav .no-padding li:hover, .side-nav .no-padding li.active {
-    background-color: #0091ea !important;            
+    background-color: #f2f2f2 !important;
 }
 
 ul.side-nav.fixed li.logo {
@@ -405,12 +405,7 @@ input {
 }
 
 .input-field .prefix.active {
-    color: #000 !important;    
-}
-
-.input{
-    color: red !important;    
-        border-bottom: 1px solid red !important;
+    color: #000 !important;
 }
 
 .ajuste-select-top-label {
@@ -498,6 +493,7 @@ input[type=text].invalid+label:after, input[type=text]:focus.invalid+label:after
 .input-field>label {
     width: 50%;
 }
+
 .input-field>.caret {
     display: none !important;
 }
@@ -607,10 +603,3 @@ select {
         left: 70%;
     }
 }
-
-.btn{
-    background: #0091ea !important;
-}
-/*.active{
-    background: blue !important;
-}*/

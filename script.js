@@ -41,4 +41,25 @@ $('document').ready(function () {
         e.preventDefault();
         $(this).parent('div').remove();
     });
+    
+     //Adicionar Campos de Telefone
+    $('#add_a').click(function (e) {
+        e.preventDefault();     //prevenir novos clicks                
+        $('#listas').append('<div>\
+                                <div class="row">\n\
+                                    <div class="input-field col s12 m6 l6" >\n\
+                                        <!--<i class="material-icons prefix">portrait</i>-->\n\
+                                        <input type="text" id="produtos[' + x + ']" value=""  />\n\
+                                        <label for="produtos[' + x + ']">Nome do Produto</label>\n\
+                                    </div>\n\
+                                    <div class="input-field col s12 m5 l5" >\n\
+                                        <!--<i class="material-icons prefix">call</i>-->\n\
+                                        <input type="text" id="precos[' + x + ']" value="" class="fone"/>\n\
+                                        <label for="precos[' + x + ']">Preço Unitário</label>\n\
+                                    </div>\n\
+                                <button href="#" class="btn remover_campo" style="margin-top: 1rem;"><i class="material-icons prefix">clear</i></button>\n\
+                                </div>\
+                            </div>');
+        x++;
+    });
 });
