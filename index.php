@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">    
 
         <link href="lib/css/main.css" rel="stylesheet" type="text/css"/>
+        <link href="lib/css/custom.css" rel="stylesheet" type="text/css"/>
 
         <script src="lib/js/jquery/jquery.js" type="text/javascript"></script>
         <script src="lib/js/jquery/jquery.mobile.min.js" type="text/javascript"></script>
