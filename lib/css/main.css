@@ -258,11 +258,11 @@ ul.side-nav.fixed li a {
 }
 
 .side-nav li:hover, .side-nav li.active {
-    background: transparent !important;    
+    background: transparent !important;        
 }
 
 .side-nav .no-padding li:hover, .side-nav .no-padding li.active {
-    background-color: #0091ea !important;            
+    background-color: #0091ea !important;    
 }
 
 ul.side-nav.fixed li.logo {
@@ -405,12 +405,12 @@ input {
 }
 
 .input-field .prefix.active {
-    color: #000 !important;    
+    color: #000 !important;        
 }
 
-.input{
+.label.input:active{
     color: red !important;    
-        border-bottom: 1px solid red !important;
+        /*border-bottom: 1px solid red !important;*/
 }
 
 .ajuste-select-top-label {
