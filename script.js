@@ -62,4 +62,6 @@ $('document').ready(function () {
                             </div>');
         x++;
     });
+        
+    $('select').material_select();
 });

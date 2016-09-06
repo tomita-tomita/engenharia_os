@@ -1,12 +1,12 @@
 <script src="script.js" type="text/javascript"></script>
 <div>    
     <div class="col s12 form">        
-        <form action="banco_clientes.php" method="post">                  
+        <form action="banco_clientes.php" method="post">        
             <div class="card-panel">
                 <span class="card-title"><h5>
                         <i class="material-icons prefix">account_circle</i>
                         Dados Pessoais</h5></span>
-                <div class="row">
+                <div class="row"> 
                     <div class="input-field col s12 m6 l6" >
                         <!--<i class="material-icons prefix">account_circle</i>-->
                         <input type="text" id="nome" value="" required/>
