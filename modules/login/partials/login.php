@@ -24,7 +24,7 @@
                         <div class="col s12 center">
                             <input type="hidden" name="id" value="<?php echo "$id" ?>" />
                             <input type="hidden" name="acao" value="<?php echo "$acao" ?>" />                   
-                            <button class="btn-large waves-effect waves-light" type="submit" name="action">Entrar</button>
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Entrar</button>
                         </div>
                     </div>
                 </form>

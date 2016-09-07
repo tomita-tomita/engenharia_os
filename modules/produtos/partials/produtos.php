@@ -9,26 +9,26 @@
                 <div class="input-field col s12 m6 l6" >
                     <!--<i class="material-icons prefix">account_circle</i>-->
                     <input type="text" id="nomeProduto" value="" required/>
-                    <label for="nome">Nome</label>
+                    <label for="nomeProduto">Nome</label>
                 </div>
                 <div class="input-field col s12 m6 l6" >
                    <!--<i class="material-icons prefix">account_circle</i>-->
-                    <input type="text" id="precoProduto" value="" required/>
-                    <label for="nome">Código</label>
+                    <input type="text" id="codigo" value="" required/>
+                    <label for="codigo">Código</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12 m6 l6" >
                     <!--<i class="material-icons prefix">account_circle</i>-->
                     <input type="number" id="precoProduto" value="" required/>
-                    <label for="nome">Preço Unitário</label>
+                    <label for="precoProduto">Preço Unitário</label>
                 </div>
             </div>
 
             <div class="row">
                 <div class="input-field col s12">
                     <textarea id="descricaoProduto" class="materialize-textarea" length="120"></textarea>
-                    <label for="textarea1">Descrição Produto</label>
+                    <label for="descricaoProduto">Descrição Produto</label>
                 </div>
             </div>
 
