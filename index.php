@@ -62,10 +62,10 @@
                             <a class="collapsible-header">Chamados</a>
                             <div class="collapsible-body">
                                 <ul>
-                                    <li><a>Abrir Chamado</a></li>
-                                    <li><a>...</a></li>
-                                    <li><a>...</a></li>
-                                    <li><a>...</a></li>
+                                    <li><a data-ng-click="main.selecionar('chamados', '')">Abrir Chamado</a></li>
+                                    <li><a>Editar Chamado</a></li>
+                                    <li><a>Excluir Chamado</a></li>
+                                    <li><a>Visualizar Chamados</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -112,6 +112,7 @@
         <script src="modules/orcamentos/controllers/orcamentoController.js" type="text/javascript"></script>
         <script src="modules/login/controllers/loginController.js" type="text/javascript"></script>        
         <script src="modules/produtos/controllers/produtoController.js" type="text/javascript"></script>        
+        <script src="modules/chamados/controllers/chamadoController.js" type="text/javascript"></script>        
 
         <script src="lib/js/jquery/geral.js" type="text/javascript"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.1/jquery.inputmask.bundle.js"></script>

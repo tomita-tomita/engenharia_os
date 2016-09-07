@@ -37,6 +37,14 @@
                         <input type="text" class="data" id="nasci" value=""  />
                         <label for="nasci">Data de Nascimento</label>
                     </div> 
+<!--                    <label>Materialize Select</label>
+                    <div class="input-field col s12 m6 16">                                                
+                        <select>
+                            <option value="" disabled selected>Tipo</option>
+                            <option value="1">Físico</option>
+                            <option value="2">Jurídico</option>                            
+                        </select>                                                   
+                    </div>-->
                 </div> 
             </div>
             <div class="card-panel">

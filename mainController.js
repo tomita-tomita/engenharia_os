@@ -1,7 +1,7 @@
 (function (){
     //var mainModule = angular.module('mainModule', ['mainDirectives', 'servidorModule','instituicaoModule','cursoModule', 
     //'regimeModule','nivelModule','turnoModule','unidadeModule', 'tipoModule','turmaModule','matriculaModule', 'transferenciaModule', 'dateTimeComponent']);
-    var mainModule = angular.module('mainModule', ['clienteModule','orcamentoModule','loginModule','produtoModule', 'funcionarioModule']);
+    var mainModule = angular.module('mainModule', ['clienteModule','orcamentoModule','loginModule','produtoModule', 'funcionarioModule', 'chamadoModule']);
     mainModule.controller('MainController', function($templateCache){
         
         $templateCache.removeAll();
