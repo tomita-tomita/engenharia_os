@@ -611,7 +611,6 @@ select {
 .btn{
     background: #0091ea !important;
 }
-
-.active{
-    /*color: #0091ea !important;*/
-}
+/*.active{
+    background: blue !important;
+}*/
