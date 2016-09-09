@@ -26,7 +26,7 @@
     </head>
     <body ng-app='novoEducar' data-ng-controller="MainController as main">
         <header>
-            <div class="navbar-fixed hide-on-large-only">
+            <div class="navbar-fixed hide-on-large-only" >
                 <nav>
                     <div class="container">
                         <div class="nav-wrapper">

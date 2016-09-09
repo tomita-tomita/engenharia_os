@@ -29,6 +29,30 @@
 }
 
 .sidebar {
- background-color: red !important;
+    background-color: red !important;
 }
 
+body {
+    background: #3498db !important;
+}
+
+.card-panel{
+    //border-radius: 1rem !important;
+}
+
+.side-nav.fixed {
+    color: white !important;
+    background: #34495E !important;
+}
+
+.side-nav .collapsible-header{
+    color: white !important;
+}
+
+.side-nav .collapsible-body{
+    background: #34495E !important;
+}
+
+.side-nav .collapsible-body li a{
+    color: #000 !important;
+}
