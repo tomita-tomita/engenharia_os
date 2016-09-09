@@ -5,22 +5,15 @@
         <span class="card-title"><h5><i class="material-icons prefix">assignment</i>Orçamento</h5></span>
         <div class="row">
 
-            <div class="input-field col s11 m6 16">
-                <select disabled>
-                    <option value="" disabled selected>Funcionário</option>
-                    <option value="1">Funcionário 1</option>
-                    <option value="2">Funcionáio 2</option>
-                    <option value="3">Funcionáio 3</option>
-                </select>
-            </div>
+            <div class="input-field col s12 m6 16">
+                    <input disabled id="disabled" type="text" class="validate">
+                    <label for="disabled">Funcionario</label>
+                </div>
 
-            <div class="input-field col s11 m6 16">
-                <select>
-                    <option value="" disabled selected>Selecionar Cliente</option>
-                    <option value="1">Cliente 1</option>
-                    <option value="2">Cliente 2</option>
-                    <option value="3">Cliente 3</option>
-                </select>
+            <div class="input-field col s12 m6 16">                        
+                <i class="material-icons prefix">textsms</i>
+                <input type="text" id="autocomplete-input" class="autocomplete">
+                <label for="autocomplete-input">Nome do Cliente</label>                        
             </div>
             
             <div class="row input-field col s11 m6 16">

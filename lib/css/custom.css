@@ -21,11 +21,11 @@
 }
 
 .btn{
-    background: #0091ea !important;
+    background: #34495E !important;
 }
 
 .btn-large{
-    background: #0091ea !important;
+    background: #34495E !important;
 }
 
 .sidebar {
@@ -37,7 +37,7 @@ body {
 }
 
 .card-panel{
-    //border-radius: 1rem !important;
+    border-radius: 5px !important;
 }
 
 .side-nav.fixed {
