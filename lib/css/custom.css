@@ -1,48 +1,60 @@
+:root {
+  --corTextoMenu: #fff;
+  --corFundoMenu: #3498db;
+  --corFundoBody: #34495E;
+  --corFundoBtn: #3498db;
+  
+  /*Navbar*/
+  --corFundoSelecao: #fff;
+  --corTextoSelecao: #000;
+}
+
 .input-field input:focus + label {
-    color: #0091ea !important;
+    color: var(--corFundoBtn) !important;
 }
 
 .input-field input:focus {
-    border-bottom: 1px solid #0091ea !important;
-    box-shadow: 0 1px 0 0 #0091ea !important;
+    border-bottom: 1px solid var(--corFundoBtn) !important;
+    box-shadow: 0 1px 0 0 var(--corFundoBtn) !important;
 }
 
 .input-field textarea:focus + label {
-    color: #0091ea !important;
+    color: var(--corFundoBtn) !important;
 }
 
 .input-field textarea:focus {
-    border-bottom: 1px solid #0091ea !important;
-    box-shadow: 0 1px 0 0 #0091ea !important;
+    border-bottom: 1px solid var(--corFundoBtn) !important;
+    box-shadow: 0 1px 0 0 var(--corFundoBtn) !important;
 }
 
 .material-icons prefix {
-    color: #0091ea !important;
+    //color: #0091ea !important;
 }
 
 .btn{
-    background: #34495E !important;
+    background: var(--corFundoBtn) !important;
 }
 
 .btn-large{
-    background: #34495E !important;
+    background: var(--corFundoBtn) !important;
 }
 
 .sidebar {
-    background-color: red !important;
+    //background-color: red !important;
 }
 
 body {
-    background: #3498db !important;
+    background: var(--corFundoBody) !important;
 }
 
+/*Menu*/
 .card-panel{
     border-radius: 5px !important;
 }
 
 .side-nav.fixed {
-    color: white !important;
-    background: #34495E !important;
+    color: var(--corTextoMenu) !important;
+    background: var(--corFundoMenu) !important;
 }
 
 .side-nav .collapsible-header{
@@ -50,9 +62,26 @@ body {
 }
 
 .side-nav .collapsible-body{
-    background: #34495E !important;
+    background: var(--corFundoMenu) !important;
 }
 
 .side-nav .collapsible-body li a{
-    color: #000 !important;
+    color: var(--corTextoMenu) !important;
+}
+
+nav {
+    background: var(--corFundoMenu) !important; //barraSuperior
+    color: var(--corTextoMenu) !important;
+}
+
+.side-nav li:hover, .side-nav li.active {
+    background: transparent !important;        
+}
+
+.side-nav .collapsible-body li:hover, .side-nav .collapsible-body li a.active {   
+    background-color: var(--corFundoSelecao) !important;     
+}
+
+.side-nav .collapsible-body li a:hover, .side-nav .collapsible-body li a.active {
+    color: var(--corTextoSelecao) !important; 
 }

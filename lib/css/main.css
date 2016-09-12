@@ -257,18 +257,6 @@ ul.side-nav.fixed li a {
     margin: 0 1rem 0 2rem;
 }
 
-.side-nav li:hover, .side-nav li.active {
-    background: transparent !important;        
-}
-
-.side-nav .collapsible-body li:hover, .side-nav .collapsible-body li a.active {
-    background-color: #0091ea !important;   
-}
-
-.side-nav .collapsible-bodyali a:hover, .side-nav .collapsible-body li a.active {
-    color: #fff !important;   
-}
-
 ul.side-nav.fixed li.logo {
     border-bottom: 1px solid #ddd;
     margin-bottom: 16px;
@@ -292,9 +280,7 @@ ul.side-nav.fixed li.logo:hover {
 
 nav {
     box-shadow: none;
-    height: 122px;
-    background: #0288d1 !important;
-    color: #fafafa !important;
+    height: 122px;    
     border-bottom: 1px solid #81D4FA;
     box-shadow: none !important;
 }
