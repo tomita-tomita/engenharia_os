@@ -44,9 +44,7 @@
                 document.getElementById('label_cpf_cnpj').innerHTML = "CPF*";
                 $('#cpf_cnpj').inputmask({ "mask": "999.999.999-99" });
             }
-        }
-
-        $("#register").validate();
+        }        
 
     }]);
 })();
