@@ -122,14 +122,26 @@
                         <label for="senha">Senha</label>
                     </div>                                        
                 </div>            
-            </div>    
-    </div>                      
-    <div class="row fim-form">
-        <div class="col s12 right-align">
-            <input type="hidden" name="id" value="" />
-            <input type="hidden" name="acao" value="" />                   
-            <button class="btn waves-effect waves-light" type="submit" name="action"><i class="material-icons left">send</i>SALVAR</button>
-        </div>                
-        </form>        
+            </div> 
+
+            <form id="register">
+                <label for="password">Password:</label>
+                <input class="password" name="password" id="password" />
+                <div class="password-meter">
+                    <div class="password-meter-message"> </div>
+                    <div class="password-meter-bg">
+                        <div class="password-meter-bar"></div>
+                    </div>
+                </div>
+            </form>
+
+            <div class="row fim-form">
+                <div class="col s12 right-align">
+                    <input type="hidden" name="id" value="" />
+                    <input type="hidden" name="acao" value="" />                   
+                    <button class="btn waves-effect waves-light" type="submit" name="action"><i class="material-icons left">send</i>SALVAR</button>
+                </div>
+            </div>                
+    </form>        
     </div>
 </div>

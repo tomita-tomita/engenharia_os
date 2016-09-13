@@ -8,7 +8,7 @@
         <link href="lib/css/custom.css" rel="stylesheet" type="text/css"/>
 
         <script src="lib/js/jquery/jquery.js" type="text/javascript"></script>
-        <script src="lib/js/jquery/jquery.mobile.min.js" type="text/javascript"></script>
+        <script src="lib/js/jquery/jquery.mobile.min.js" type="text/javascript"></script>        
 
         <!-- Angular -->
         <script type="text/javascript" src="lib/js/angular/newangular.min.js"></script>
