@@ -39,8 +39,8 @@ $('.datepicker').pickadate({
 }
 
 .card .card-image img {
-  width: 100% !important;
-  height: 150px !important;
+    width: 100% !important;
+    height: 150px !important;
 }
 
 .panel {
@@ -48,13 +48,13 @@ $('.datepicker').pickadate({
 }
 
 .tabs .tab a {
-    
+
 }
 
 /* GERAL */
 
 body {
-      background: #eee !important;
+    background: #eee !important;
 }
 
 *:focus {
@@ -70,7 +70,7 @@ header, main, footer {
 }
 
 .collapsible-body p {
-  font-size: 14px !important;
+    font-size: 14px !important;
 }
 
 .relative {
@@ -127,7 +127,7 @@ header, main, footer {
 }
 
 .ajuste-margin-bottom-0 {
-     margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .ui-loader {
@@ -163,34 +163,34 @@ header, main, footer {
 }
 
 .md-chip-img {
-  border-radius: 50%;
-  width: 42px;
-  height: 42px;
-  overflow: hidden;
-  float: left;
-  background: #BDBDBD;
-  color:#fafafa;
-  cursor: pointer;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    float: left;
+    background: #BDBDBD;
+    color:#fafafa;
+    cursor: pointer;
 }
 
 .md-chip-img .md-chip-span {
-  height: 42px;
+    height: 42px;
 }
 
 .md-chip-img img {
-  -webkit-transform: translate(-50%);
-  margin-left: 21px;
-  height: 42px;
+    -webkit-transform: translate(-50%);
+    margin-left: 21px;
+    height: 42px;
 }
 
 .md-chip-text {
-  display: inline-block;
-  font-weight: 400;
-  font-size: 12px;
-  height: 56px;
-  float: left;
-  padding: 12px 15px;
-  color: #7e7e7e;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 12px;
+    height: 56px;
+    float: left;
+    padding: 12px 15px;
+    color: #7e7e7e;
 }
 
 /* COLOR */
@@ -303,8 +303,8 @@ nav a.page-title {
 /* LISTS */
 
 .collection {
-      /* margin-top: 63px !important; */
-      border: none !important;
+    /* margin-top: 63px !important; */
+    border: none !important;
 }
 
 .collection li {
@@ -410,7 +410,7 @@ input {
 
 .label.input:active{
     color: red !important;    
-        /*border-bottom: 1px solid red !important;*/
+    /*border-bottom: 1px solid red !important;*/
 }
 
 .ajuste-select-top-label {
@@ -455,19 +455,19 @@ input {
 }
 
 ::-webkit-input-placeholder {
-   color: #fafafa !important;
+    color: #fafafa !important;
 }
 
 :-moz-placeholder {
-   color: #fafafa !important;
+    color: #fafafa !important;
 }
 
 ::-moz-placeholder {
-   color: #fafafa !important;
+    color: #fafafa !important;
 }
 
 :-ms-input-placeholder {  
-   color: #fafafa !important;
+    color: #fafafa !important;
 }
 
 .dropdown-content li:first-child {
@@ -510,24 +510,24 @@ select {
 }
 
 .select-wrapper {
-     padding-left: 47px !important; 
+    padding-left: 47px !important; 
 }
 
 /* MOBILE */
 
 @media only screen and (max-width : 992px) {
     header, main, footer {
-      padding-left: 0;
+        padding-left: 0;
     }
-    
+
     .panel {
         height: 105px !important;
     }
-    
+
     .ajuste-texto-panel-mobile {
         margin-top: 12px;
     }
-    
+
     .btn-add {
         position: fixed;
         right: 25px !important;
@@ -535,49 +535,49 @@ select {
         top: initial;
         z-index: 3;
     }
-    
+
     .busca {
         position: fixed;
         top: 56px;
         z-index: 2;
     }
-    
+
     .btn-voltar {
         top: 16px !important;
         left: 85% !important;
         color: #fafafa;
     }
-    
+
     nav .input-field label {
         top: 13px !important;
     }
-    
+
     nav a.page-title {
         font-size: 20px;
         line-height: 58px;
         margin-left: 15px;
     }
-    
+
     .collection {
-         margin-top: 55px !important; 
+        margin-top: 55px !important; 
     }
-    
+
     .progress {
         position: fixed !important;
         top: 105px;
         z-index: 2;
     }
-    
+
     nav .button-collapse i {
         font-size: 2.2rem !important;
     }
-    
+
     .swipeable {
         width: 100%;
         background: #fff;
         /* height: 63px; */;
         line-height: 27px;
-         position: absolute; 
+        position: absolute; 
         top: 0px;
         left: 0px;
         transition-property: all;
@@ -585,12 +585,12 @@ select {
         padding: 11px;
         display: block;
     }
-    
+
     .mobile-delete {
         height: 63px;
         background: #e74c3c;
         width: 80%;
-         
+
         line-height: 65px; 
         padding-left: 20px;
         color: white;

@@ -6,15 +6,15 @@
                 <span class="card-title"><h5>
                         <i class="material-icons prefix">account_circle</i>
                         Dados Pessoais</h5></span>
-                    <div class="row" style="margin-top:3rem;">                                                                                                    
+                <div class="row" style="margin-top:3rem;">                                                                                                    
                     <p>
                         <input class="with-gap" name="group1" type="radio" id="fisico" ng-click="ativaClienteJuridico(false)" checked/>
                         <label for="fisico">Cliente Físico</label>
                         <input class="with-gap" name="group1" type="radio" id="juridico" ng-click="ativaClienteJuridico(true)"/>
                         <label for="juridico">Cliente Jurídico</label>
                     </p>
-                    </div>
-                    <div class="row">                          
+                </div>
+                <div class="row">                          
                     <div class="input-field col s12 m6 l6" >                        
                         <input type="text" id="nome" value="" required/>
                         <label for="nome">Nome*</label>
@@ -130,6 +130,6 @@
                     <button class="btn waves-effect waves-light" type="submit" name="action"><i class="material-icons left">send</i>SALVAR</button>
                 </div>
             </div>                
-    </form>        
+        </form>        
     </div>
 </div>

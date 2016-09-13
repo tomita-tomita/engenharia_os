@@ -2,12 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/xampp/htdocs/tjsis2.0/modules/produtos/partials/produtos.php</file>
-            <file>file:/C:/xampp/htdocs/tjsis2.0/modules/clientes/partials/clientes.php</file>
-            <file>file:/C:/xampp/htdocs/tjsis2.0/modules/clientes/controllers/clienteController.js</file>
-            <file>file:/C:/xampp/htdocs/tjsis2.0/modules/clientes/partials/banco_clientes.php</file>
-            <file>file:/C:/xampp/htdocs/tjsis2.0/modules/orcamentos/partials/orcamentos.php</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

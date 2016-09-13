@@ -1,17 +1,17 @@
 $('document').ready(function () {
     // Máscaras    
-    $('.fone').inputmask({ "mask": "(99) 9999-9999" });
-    $('.cpf').inputmask({ "mask": "999.999.999-99" });
-    $('.rg').inputmask({ "mask": "9.999.999" });
-    $('.data').inputmask({ "mask": "99/99/9999" });
-    $('.cep').inputmask({ "mask": "99999-999" });
+    $('.fone').inputmask({"mask": "(99) 9999-9999"});
+    $('.cpf').inputmask({"mask": "999.999.999-99"});
+    $('.rg').inputmask({"mask": "9.999.999"});
+    $('.data').inputmask({"mask": "99/99/9999"});
+    $('.cep').inputmask({"mask": "99999-999"});
     //$('.numero').inputmask({"mask": "9#"});
 
     $('.datepicker').pickadate({
         selectMonths: true, // Creates a dropdown to control month
         selectYears: 15 // Creates a dropdown of 15 years to control year
     });
-    $('.tooltipped').tooltip({ delay: 50 });
+    $('.tooltipped').tooltip({delay: 50});
 
     var x = 1;
 
