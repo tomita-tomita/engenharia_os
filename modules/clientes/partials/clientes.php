@@ -6,55 +6,39 @@
                 <span class="card-title"><h5>
                         <i class="material-icons prefix">account_circle</i>
                         Dados Pessoais</h5></span>
-                <div class="row">
-                                              
-    
-    <p>
-      <input class="with-gap" name="group1" type="radio" id="fisico"  />
-      <label for="fisico">Cliente Físico</label>
-      <input class="with-gap" name="group1" type="radio" id="juridico"  />
-      <label for="juridico">Cliente Jurídico</label>
-    </p>
-  
-  
-                    <div class="input-field col s12 m6 l6" >
-                        <!--<i class="material-icons prefix">account_circle</i>-->
+                    <div class="row" style="margin-top:3rem;">                                                                                                    
+                    <p>
+                        <input class="with-gap" name="group1" type="radio" id="fisico" ng-click="ativaClienteJuridico(false)" checked/>
+                        <label for="fisico">Cliente Físico</label>
+                        <input class="with-gap" name="group1" type="radio" id="juridico" ng-click="ativaClienteJuridico(true)"/>
+                        <label for="juridico">Cliente Jurídico</label>
+                    </p>
+                    </div>
+                    <div class="row">                          
+                    <div class="input-field col s12 m6 l6" >                        
                         <input type="text" id="nome" value="" required/>
                         <label for="nome">Nome*</label>
                     </div>
-                    <div class="input-field col s12 m6 l6" >
-                        <!--<i class="material-icons prefix">account_circle</i>-->
+                    <div class="input-field col s12 m6 l6" >                        
                         <input type="text" id="sobrenome" value="" required/>
                         <label for="sobrenome">Sobrenome*</label>
                     </div>
-                </div>
-                <!--Aqui deve ser incluido um dropdown para selecionar se o cliente é físico ou jurídico-->
+                </div>                
                 <div class="row">
-                    <div class="input-field col s12 m6 l6" >
-                        <!--<i class="material-icons prefix">description</i>-->
-                        <input type="text" id="cpf" value="" class="form-control cpf" />
-                        <label for="cpf">CPF*</label>
+                    <div class="input-field col s12 m6 l6" >                        
+                        <input type="text" id="cpf_cnpj" value="" class="form-control cpf" />
+                        <label for="cpf_cnpj" id="label_cpf_cnpj">CPF*</label>
                     </div>
-                    <div class="input-field col s12 m6 l6" >
-                        <!--<i class="material-icons prefix">description</i>-->
+                    <div class="input-field col s12 m6 l6" id="divRG" >                        
                         <input type="text" id="rg" value="" class="rg"  />
                         <label for="rg">RG*</label>
-                    </div>
+                    </div>                    
                 </div>
                 <div class="row">
-                    <div class="input-field col s12 m6 l6" >
-                        <!--<i class="material-icons prefix"></i>-->
+                    <div class="input-field col s12 m6 l6" id="divDataNasci">                        
                         <input type="text" class="data" id="nasci" value=""  />
                         <label for="nasci">Data de Nascimento</label>
                     </div> 
-<!--                    <label>Materialize Select</label>
-                    <div class="input-field col s12 m6 16">                                                
-                        <select>
-                            <option value="" disabled selected>Tipo</option>
-                            <option value="1">Físico</option>
-                            <option value="2">Jurídico</option>                            
-                        </select>                                                   
-                    </div>-->
                 </div> 
             </div>
             <div class="card-panel">
@@ -62,40 +46,33 @@
                         <i class="material-icons prefix">place</i>
                         Endereço</h5></span>
                 <div class="row">
-                    <div class="input-field col s12 m6 l6" >
-                        <!--<i class="material-icons prefix">place</i>-->
+                    <div class="input-field col s12 m6 l6" >                        
                         <input type="text" id="endereco" value=""  />
                         <label for="endereco">Endereço</label>
                     </div>
-                    <div class="input-field col s12 m2 l2" >
-                        <!--<i class="material-icons prefix">filter_1</i>-->
+                    <div class="input-field col s12 m2 l2" >                        
                         <input type="text" id="numero" value=""  />
                         <label for="numero">Número</label>
                     </div>
-                    <div class="input-field col s12 m4 l4" >
-                        <!--<i class="material-icons prefix">local_offer</i>-->
+                    <div class="input-field col s12 m4 l4" >                        
                         <input type="text" id="comple" value=""  />
                         <label for="comple">Complemento</label>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s12 m6 l6" >
-                        <!--<i class="material-icons prefix">place</i>-->
+                    <div class="input-field col s12 m6 l6" >                        
                         <input type="text" id="bairro" value=""  />
                         <label for="bairro">Bairro</label>
                     </div>
-                    <div class="input-field col s12 m2 l2">
-                        <!--<i class="material-icons prefix">local_offer</i>-->
+                    <div class="input-field col s12 m2 l2">                    
                         <input type="text" id="cidade" value=""  />
                         <label for="cidade">Cidade</label>
                     </div>
-                    <div class="input-field col s12 m2 l2">
-                        <!--<i class="material-icons prefix">local_offer</i>-->
+                    <div class="input-field col s12 m2 l2">                        
                         <input type="text" id="uf" value=""  />
                         <label for="uf">UF</label>                        
                     </div>
-                    <div class="input-field col s12 m2 l2" >
-                        <!--<i class="material-icons prefix">filter_1</i>-->
+                    <div class="input-field col s12 m2 l2" >                        
                         <input type="text" id="cep" value="" class="cep" />
                         <label for="cep">CEP</label>
                     </div>
@@ -106,8 +83,7 @@
                         <i class="material-icons prefix">portrait</i>
                         Contato</h5></span>
                 <div class="row">
-                    <div class="input-field col s12 m6 l6" >
-                        <!--<i class="material-icons prefix">mail</i>-->
+                    <div class="input-field col s12 m6 l6" >                        
                         <input id="email" type="email" class="validate" value=""/>
                         <label for="email" data-error="Email inválido" data-success="right">E-mail</label>
                     </div>                     
@@ -116,13 +92,11 @@
                 <br>
                 <div id="listas">
                     <div class="row">                        
-                        <div class="input-field col s12 m6 l6" >
-                            <!--<i class="material-icons prefix">portrait</i>-->
+                        <div class="input-field col s12 m6 l6" >                            
                             <input type="text" id="contato[0]" value=""  />
                             <label for="contato[0]">Contato</label>
                         </div>
-                        <div class="input-field col s12 m5 l5">
-                            <!--<i class="material-icons prefix">call</i>-->
+                        <div class="input-field col s12 m5 l5">                            
                             <input type="text" id="fone[0]" value="" class="fone"/>
                             <label for="fone[0]">Número</label>
                         </div>                                                
@@ -139,20 +113,15 @@
                         <i class="material-icons prefix">person</i>
                         Usuário</h5></span>
                 <div class="row">
-                    <div class="input-field col s12 m6 l6" >
-                        <!--<i class="material-icons prefix">place</i>-->
+                    <div class="input-field col s12 m6 l6" >                        
                         <input type="text" id="login" value=""  />
                         <label for="login">Login</label>
                     </div>
-                    <div class="input-field col s12 m2 l2" >
-                        <!--<i class="material-icons prefix">filter_1</i>-->
+                    <div class="input-field col s12 m2 l2" >                        
                         <input type="password" id="senha" value=""  />
                         <label for="senha">Senha</label>
                     </div>                                        
                 </div>            
-                <div class="row">
-                    <!--Incluir dropdown para selecionar o cargo-->
-                </div>
             </div>    
     </div>                      
     <div class="row fim-form">

@@ -27,20 +27,20 @@
     box-shadow: 0 1px 0 0 var(--corFundoBtn) !important;
 }
 
-.material-icons prefix {
-    //color: #0091ea !important;
+[type="radio"].with-gap:checked+label:before {
+    border: 2px solid var(--corFundoBtn) !important;    
 }
 
+[type="radio"].with-gap:checked+label:after{
+    border: 2px solid var(--corFundoBtn) !important;
+    background-color: var(--corFundoBtn) !important;
+}
 .btn{
     background: var(--corFundoBtn) !important;
 }
 
 .btn-large{
     background: var(--corFundoBtn) !important;
-}
-
-.sidebar {
-    //background-color: red !important;
 }
 
 body {
@@ -70,7 +70,7 @@ body {
 }
 
 nav {
-    background: var(--corFundoMenu) !important; //barraSuperior
+    background: var(--corFundoMenu) !important; /*barraSuperior*/
     color: var(--corTextoMenu) !important;
 }
 

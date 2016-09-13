@@ -6,7 +6,7 @@
                 <span class="card-title"><h5>
                         <i class="material-icons prefix">account_circle</i>
                         Dados Pessoais</h5></span>
-                <div class="row">
+                <div class="row">                
                     <div class="input-field col s12 m6 l6" >
                         <!--<i class="material-icons prefix">account_circle</i>-->
                         <input type="text" id="nome" value="" required/>
