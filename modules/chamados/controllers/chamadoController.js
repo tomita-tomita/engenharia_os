@@ -3,6 +3,7 @@
     
     chamadoModule.controller('ChamadoController', ['$scope', function($scope) {
         /* Inicializando */
+        $('.tooltipped').tooltip({delay: 50});
     }]);
     
 })();
