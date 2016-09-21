@@ -1,11 +1,11 @@
 :root {
-  --corTextoMenu: #fff;
-  --corFundoMenu: #3498db;
-  --corFundoBody: #34495E;
+  --corTextoMenu: #000;
+  --corFundoMenu: #fff;
+  --corFundoBody: #eee;
   --corFundoBtn: #3498db;
   
   /*Navbar*/
-  --corFundoSelecao: #fff;
+  --corFundoSelecao: #3498db;
   --corTextoSelecao: #000;
 }
 
@@ -57,8 +57,8 @@ body {
     background: var(--corFundoMenu) !important;
 }
 
-.side-nav .collapsible-header{
-    color: white !important;
+.side-nav .collapsible-header{    
+    color: var(--corTextoMenu) !important;
 }
 
 .side-nav .collapsible-body{
